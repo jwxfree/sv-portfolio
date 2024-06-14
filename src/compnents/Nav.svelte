@@ -1,16 +1,16 @@
 <script>
-  export let y;
-  let tabs = [
-    { name: "About ", link: "/#about" },
-    { name: "Projects", link: "/#projects" },
-  ];
-
   import {
     ThemeToggle,
     isDarkMode,
     toggleDarkMode,
   } from "@friendofsvelte/toggle";
   import "@friendofsvelte/toggle/styles/Toggle.css";
+
+  export let y;
+  let tabs = [
+    { name: "About ", link: "/#about" },
+    { name: "Projects", link: "/#projects" },
+  ];
 </script>
 
 <header
