@@ -1,7 +1,7 @@
 <script>
   import "../app.css";
-  import Nav from "../compnents/Nav.svelte";
-  import Footer from "../compnents/Footer.svelte";
+  import Nav from "../components/Nav.svelte";
+  import Footer from "../components/Footer.svelte";
 
 
   let y;
