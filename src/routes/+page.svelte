@@ -1,7 +1,7 @@
 <script>
-    import Index from "/WebProjects/WebPortfolio/src/components/Index.svelte"
+    import I from "/WebProjects/WebPortfolio/src/components/Index.svelte"
 
 </script>
 
-<Index />
+<I />
 

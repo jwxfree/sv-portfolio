@@ -1,3 +1,4 @@
-<script>import Contact from "/WebProjects/WebPortfolio/src/components/contact.svelte"
+<script>
+    import C from '/WebProjects/WebPortfolio/src/components/contact.svelte'
 </script>
-<Contact />
+<C />
