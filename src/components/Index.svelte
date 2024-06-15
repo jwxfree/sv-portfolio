@@ -162,7 +162,7 @@
   
   {/if}
 
-  {#if y >= 650}
+  {#if y >= 850}
   <section id="techstack" class="flex flex-col gap-24 py-20">
     <h3 class="text-2xl font-bold poppins text-sky-500 slide-right">
       <div class="border border-black relative w-0 h-10 -left-2 top-[35px] dark:border-white"></div>
@@ -493,7 +493,7 @@
     </section>
   {/if}
   <!-- PROJECTS SECTION SM-->
-  {#if y >= 3700}
+  {#if y >= 3550}
     <section id="projects" class="flex flex-col gap-24 py-20 sm:block md:hidden lg:hidden slide-right">
       <div class="flex flex-col text-left gap-2 pb-20">
         <h3 class="text-2xl font-bold poppins text-sky-500">
