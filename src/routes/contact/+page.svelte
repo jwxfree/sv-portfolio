@@ -1,4 +1,4 @@
 <script>
-    import C from '/WebProjects/WebPortfolio/src/components/contact.svelte'
+    import Contact from '/WebProjects/WebPortfolio/src/components/contact.svelte'
 </script>
-<C />
+<Contact />
