@@ -160,27 +160,26 @@
   {/if}
 
   {#if y >= 650}
-    <section id="techstack" class="flex flex-col gap-24 py-20">
-      <h3 class="text-2xl font-bold poppins text-sky-500 slide-right">
-        <div
-          class="border border-black relative w-0 h-10 -left-2 top-[35px] dark:border-white"
-        ></div>
-        Tech Stack
-      </h3>
+  <section id="techstack" class="flex flex-col gap-24 py-20">
+    <h3 class="text-2xl font-bold poppins text-sky-500 slide-right">
+      <div class="border border-black relative w-0 h-10 -left-2 top-[35px] dark:border-white"></div>
+      Tech Stack
+    </h3>
 
-      <div class="flex flex-wrap  scale-down-center">
-        {#each stack as stacks, index}
-          <a
-            href={stacks.link}
-            class="p-4 sm:p-6 md:p-8 flex flex-col gap-4 rounded-lg border border-none cursor-pointer hover:border-sky-400 hover:bg-sky-300 hover:scale-110 duration-300"
-            target="_blank"
-          >
-            <img src={stacks.img} alt="techlogo" class="w-16 h-auto" />
-          </a>
-        {/each}
-      </div>
-    </section>
-  {/if}
+    <div class="flex flex-wrap scale-down-center">
+      {#each stack as stacks, index}
+        <a
+          href={stacks.link}
+          class="p-4 sm:p-2 md:p-8 flex flex-col gap-0 rounded-lg border border-none cursor-pointer hover:border-sky-400 hover:bg-sky-300 hover:scale-110 duration-300"
+          target="_blank"
+        >
+          <img src={stacks.img} alt="techlogo" class="w-16 h-auto" />
+        </a>
+      {/each}
+    </div>
+  </section>
+{/if}
+
 
   {#if y >= 1050}
     <section
