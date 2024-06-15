@@ -10,10 +10,10 @@ export default {
       'md': '641px',
       // => @media (min-width: 641px) { ... }
 
-      'lg': '1025px',
+      'lg': '1024px',
       // => @media (min-width: 1025px) { ... }
-      'xlg': '1281px',
-      // => @media (min-width: 1281px) { ... }
+      // 'xlg': '1281px',
+      // // => @media (min-width: 1281px) { ... }
     },
     
 

@@ -47,24 +47,24 @@
 
 <svelte:window bind:scrollY={y} />
 
-<main class="flex flex-col flex-1 p-32 dark:bg-black dark:text-white">
+<main class="flex flex-col flex-1 p-32 dark:bg-black dark:text-white px-60">
   <!-- INTRO PAGE -->
 
   <section
     id="introPage"
-    class="grid grid-cols-1 lg:cols-2 gap-10 py-8 sm:py-14 slide-right"
+    class="grid grid-cols-1 lg:cols-2 gap-10 py-8 sm:py-14 xlg:py-12 slide-right"
   >
     <div
       class="flex flex-col justify-center items-center text-center"
     >
-      <h3 class="lg:text-5xl sm:text-3xl">
+      <h3 class="lg:text-5xl sm:text-3xl xlg:text-6xl">
         Hi, I'm <strong>Eilron Escalante!</strong>
         <br />
         <span class="thin-font">Aspiring</span>
         <br />
-        <a href="@" class="group transition-all duration-300 ease-in-out"
+        <a href="/" class="group transition-all duration-300 ease-in-out"
           ><span
-            class="lg:text-6xl sm:text-6xl text-sky-500 font-bold bg-left-bottom bg-gradient-to-r from-sky-500 to-sky-500 bg-[length:0%_1px] rounded bg-no-repeat group-hover:bg-[length:100%_4px] transition-all duration-700 ease-in"
+            class="lg:text-6xl sm:text-6xl xlg:text-6xl text-sky-500 font-bold bg-left-bottom bg-gradient-to-r from-sky-500 to-sky-500 bg-[length:0%_1px] rounded bg-no-repeat group-hover:bg-[length:100%_4px] transition-all duration-700 ease-in"
           >
             Full-stack Web Developer
           </span></a
@@ -84,21 +84,30 @@
         <i class="fa-solid fa-file-arrow-down px-1" style="color: #ffffff;"></i>
         Download CV
       </a>
+      <br>
+      <br>
+      <br>
+      <i class="fa-solid fa-arrow-down text-2xl" style="color: #74C0FC;"></i>
+      <br>
+      <br>
+      <br>
+      <br>
+      
     </div>
   </section>
 
   <!-- ABOUT ME SECTION -->
-  {#if y >= 75}
-  <section id="about" class="flex flex-col gap-2 pt-48 pb-44 slide-right">
-    <div class="flex flex-row gap-4">
-      <div class="flex flex-col text-left gap-2 flex-1">
-        <h3 class="text-2xl font-bold poppins text-sky-500">
+  {#if y >= 0}
+  <section id="about" class="flex flex-col gap-2 pt-48 pb-44">
+    <div class="flex flex-row gap-4 ">
+      <div class="flex flex-col text-left gap-2 flex-1 slide-right">
+        <h3 class="text-2xl lg:text-4xl xlg:text-5xl font-bold poppins text-sky-500">
           <div
             class="border border-black relative w-0 h-10 -left-2 top-[35px] dark:border-white"
           ></div>
           ABOUT
         </h3>
-        <p class="max-w-2xl relative mt-2">
+        <p class="max-w-2xl relative mt-2 lg:text-xl xlg:text-2xl">
           Hello! I am a college student in <span class="text-red-500 font-bold"
             >Emilio Aguinaldo College Cavite</span
           >
@@ -120,11 +129,11 @@
             class="w-auto h-3 inline-block align-middle"
           /> <span class="text-sky-500 font-bold">Tailwind CSS</span>.
         </p>
-        <p class="max-w-2xl relative mt-2">
+        <p class="max-w-2xl relative mt-2 xlg:text-2xl lg:text-xl">
           I work on projects such as building websites, full-stack software
           developement, video production, graphic designing, and tech solutions.
         </p>
-        <p class="max-w-2xl relative mt-2">
+        <p class="max-w-2xl relative mt-2 xlg:text-2xl lg:text-xl">
           I enjoy writing codes and creating web pages and computer
           applications. My hobbies are playing guitar, online games such as <span
             class="text-red-500 font-bold">Valorant</span
@@ -142,15 +151,15 @@
             >
         </p>
       </div>
-      <div class="slide-left">
-        <img src="./profile-pic.png" alt="pfp" class="w-96 h-auto">
+      <div class="scale-up-center">
+        <img src="./profile-pic.png" alt="pfp" class="xlg:w-full xlg:pt-16 xlg:pr-26 lg:pt-14 sm:hidden md:block lg:block">
       </div>
     </div>
   </section>
   
   {/if}
 
-  {#if y >= 450}
+  {#if y >= 650}
     <section id="techstack" class="flex flex-col gap-24 py-20">
       <h3 class="text-2xl font-bold poppins text-sky-500 slide-right">
         <div
@@ -244,7 +253,7 @@
   {/if}
 
   <!-- WORK EXPERIENCE SECTION LG -->
-  {#if y >= 1400}
+  {#if y >= 1600}
     <section
       id="workexp"
       class="flex flex-col gap-24 pb-40 sm:hidden md:block lg:block"
@@ -426,7 +435,7 @@
 
   <!-- PROJECTS SECTION LG -->
   {#if y >= 2350}
-    <section id="projects" class="flex flex-col gap-24 py-20 sm:hidden md:block lg:block slide-right">
+    <section id="projects" class="flex flex-cols py-20 sm:hidden md:block lg:block slide-right">
       <div class="flex flex-col text-left gap-5">
         <h3 class="text-2xl font-bold poppins text-sky-500 pb-20">
           <div
@@ -436,7 +445,7 @@
         </h3>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-6">
         <a
           href="https://jwxfree.github.io/PalpitateCafe/landingPage/"
           target="_blank"
@@ -458,6 +467,7 @@
             <p>
               a landing page for a tech company the offers software solutions
               and other tech related services.
+              <br>
               <br>
               <br>
               
