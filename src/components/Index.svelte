@@ -329,7 +329,7 @@
   {/if}
 
   <!-- EDUCATION SECTION SM -->
-  {#if y >= 2650}
+  {#if y >= 2600}
     <section
       id="education"
       class="flex flex-col gap-24 pb-40 sm:block md:hidden lg:hidden"
@@ -383,7 +383,7 @@
   {/if}
 
   <!-- WORK EXPERIENCE SM -->
-  {#if y >= 3150}
+  {#if y >= 3100}
     <section
       id="education"
       class="flex flex-col gap-24 sm:block md:hidden lg:hidden"
@@ -493,7 +493,7 @@
     </section>
   {/if}
   <!-- PROJECTS SECTION SM-->
-  {#if y >= 3750}
+  {#if y >= 3700}
     <section id="projects" class="flex flex-col gap-24 py-20 sm:block md:hidden lg:hidden slide-right">
       <div class="flex flex-col text-left gap-2 pb-20">
         <h3 class="text-2xl font-bold poppins text-sky-500">
