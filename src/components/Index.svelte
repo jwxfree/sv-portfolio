@@ -47,7 +47,7 @@
 
 <svelte:window bind:scrollY={y} />
 
-<main class="flex flex-col flex-1 p-32 dark:bg-black dark:text-white px-60">
+<main class="flex flex-col flex-1 p-32 dark:bg-black dark:text-white sm:px-20 md:px-40 lg:px-60">
   <!-- INTRO PAGE -->
 
   <section
@@ -152,8 +152,11 @@
         </p>
       </div>
       <div class="scale-up-center">
-        <img src="./profile-pic.png" alt="pfp" class="xlg:w-full xlg:pt-16 xlg:pr-26 lg:pt-14 sm:hidden md:block lg:block">
+        <img src="./profile-pic.png" alt="pfp" class="xlg:w-full xlg:pt-16 xlg:pr-26 lg:pt-14 sm:hidden md:hidden lg:block">
       </div>
+    </div>
+    <div class="scale-up-center">
+      <img src="./profile-pic.png" alt="pfp" class="xlg:w-full xlg:pt-16 xlg:pr-26 lg:pt-14 sm:block md:block lg:hidden">
     </div>
   </section>
   
