@@ -1,7 +1,7 @@
 <script>
-    import I from "../components/Index.svelte"
+    import Index from "../components/Index.svelte"
 
 </script>
 
-<I />
+<Index />
 
