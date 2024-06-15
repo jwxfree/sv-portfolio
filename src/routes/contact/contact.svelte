@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="flex flex-col flex-1 text-center px-20 py-40">
+<div class="flex flex-col flex-1 text-center px-20 py-56">
   <h1
     class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-sky-500 sm:text-2xl md:text-4xl lg:text-6xl dark:text-sky-500w"
   >
