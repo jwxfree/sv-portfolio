@@ -88,7 +88,7 @@
   </section>
 
   <!-- ABOUT ME SECTION -->
-  {#if y >= 80}
+  {#if y >= 75}
   <section id="about" class="flex flex-col gap-2 pt-48 pb-44 slide-right">
     <div class="flex flex-row gap-4">
       <div class="flex flex-col text-left gap-2 flex-1">
